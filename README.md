@@ -39,13 +39,14 @@ The aim of this assignment is to gain hands-on experience with **Java arrays**, 
 ## How to Run
 
 1. Open the project in your IDE (IntelliJ IDEA)
-2. Locate the `main` method and click the green play button → select **Run 'Main'** or use the terminal:
+2. Navigate to the `Main` class
+3. Locate the `main` method and click the green play button to **Run 'Main'** or use the terminal:
     ```bash
-   ./mvnw clean compile exec:java
+   mvn clean compile exec:java
    ```
-3. To run tests: open `MainTest.java` in `src/test/java`, and click the green play button → **Run 'MainTest'** or use the terminal:
+4. To run tests: open `MainTest.java` in `src/test/java`, and click the green play button to **Run 'MainTest'** or use the terminal:
    ```bash
-   ./mvnw test
+   mvn test
    ```
 
 ## Credits
